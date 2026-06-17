@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+/* Leaflet Customizations for Immersive UI Theme */
+.leaflet-container {
+  background: #020408 !important;
+}
+
+.custom-popup .leaflet-popup-content-wrapper {
+  background: transparent;
+  padding: 0;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+.custom-popup .leaflet-popup-content {
+  margin: 0;
+  width: auto !important;
+}
+
+.custom-popup .leaflet-popup-tip-container {
+  display: none; /* Hide the default white pointer arrow */
+}
+
+.custom-popup .leaflet-popup-close-button {
+  display: none !important; /* Hide the default close button */
+}
+
+.custom-icon {
+  background: transparent;
+  border: none;
+}
+
+/* Custom Scrollbar for Sidebar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(6, 182, 212, 0.5); /* Cyan 500 with opacity */
+  border-radius: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(6, 182, 212, 0.8);
+}
+

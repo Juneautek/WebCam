@@ -1,0 +1,6 @@
+{
+  "name": "Alaska Live Cams",
+  "description": "A live interactive map featuring YouTube feeds and webcams from across Alaska.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
